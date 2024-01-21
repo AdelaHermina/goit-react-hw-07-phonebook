@@ -51,7 +51,7 @@ const ContactForm = () => {
           name="name"
           value={name}
           onChange={handleChangeName}
-          placeholder="Orest Orestovich"
+          placeholder="Adela Tig"
         />
       </label>
       <label className={css.label}>
@@ -62,7 +62,7 @@ const ContactForm = () => {
           name="number"
           value={number}
           onChange={handleChangeNumber}
-          placeholder="123-45-67"
+          placeholder="0749123456"
         />
       </label>
       <button className={css.btn} type="submit" onSubmit={handleSubmit}>
